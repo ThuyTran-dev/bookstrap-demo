@@ -1,0 +1,38 @@
+.bg-cover {
+	background-image: url(imgs/cover-15.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+}
+.text-form {
+	margin: 100px 0;
+    padding: 0 120px !important;
+}
+.mybutton {
+	background: #e95490 !important;
+    border-radius: 7px ;
+    border-color: transparent !important;
+    color: #fff !important;
+    width: 100%;
+    margin: 20px 0;
+}
+.form-group input {
+	height: 60px;
+}
+.bg-cover div {
+	transform: translateY(-50%);
+    top: 50%;
+    position: absolute;
+    height: 100%;
+    overflow: hidden;
+    display: block;
+    color: #fff;
+}
+.bg-cover svg {
+	width: 112px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
