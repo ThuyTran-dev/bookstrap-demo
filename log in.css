@@ -1,0 +1,23 @@
+.bg-cover {
+	background-image: url(imgs/cover-10.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	background-position: center;
+}
+.text-form {
+	margin: 100px 0;
+    padding: 0 120px !important;
+}
+.mybutton {
+	background: #e95490 !important;
+    border-radius: 7px ;
+    border-color: transparent !important;
+    color: #fff !important;
+    width: 100%;
+    margin: 20px 0;
+}
+.form-group input {
+	height: 60px;
+}
