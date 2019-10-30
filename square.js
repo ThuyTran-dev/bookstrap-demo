@@ -1,18 +1,18 @@
-var flky = new Flickity( '.carousel', {
-  cellAlign: 'left',
-  contain: true,
-  pageDots: false,
-  // Disable page dots
-  prevNextButtons: false
+var flky = new Flickity('.carousel', {
+    cellAlign: 'left',
+    contain: true,
+    pageDots: false,
+    // Disable page dots
+    prevNextButtons: false
 });
 
-var flk2 = new Flickity( '.xxx', {
-  cellAlign: 'left',
-  contain: true,
-  pageDots: false,
-  // // Disable page dots
-  // groupCells: true,
-  // groupCells: 2
+var flk2 = new Flickity('.xxx', {
+    cellAlign: 'left',
+    contain: true,
+    pageDots: false,
+    // // Disable page dots
+    // groupCells: true,
+    // groupCells: 2
 });
 
 // function pronounce() {
@@ -20,5 +20,31 @@ var flk2 = new Flickity( '.xxx', {
 //  };
 // function change (iconID){
 //     document.getElementsByClassName("flickity-button-icon").className = "arrow-icon";
-  
+
 // }
+var flk3 = new Flickity('.yyy', {
+    cellAlign: 'left',
+    contain: true,
+    pageDots: false,
+    // Disable page dots
+});
+var flk3 = new Flickity('.aaa', {
+    cellAlign: 'left',
+    contain: true,
+    pageDots: false,
+    // Disable page dots
+});
+var flk3 = new Flickity('.bbb', {
+    cellAlign: 'left',
+    contain: true,
+    pageDots: false,
+    // Disable page dots
+});
+// $(function() {
+//     $(window).load(function() {
+//         var slide = $(".models-slide")
+//         var models = $(".models-text")
+//         slide.addClass('models-slide')
+//         models.addClass('model-text')
+//     })
+// })
